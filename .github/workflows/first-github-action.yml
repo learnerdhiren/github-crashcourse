@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: This is first step for greeting
-        run: echo "Hello I am Dhiren"
+        run: |
+          echo "Hello I am Dhiren"
+          echo "Welcome to GitHub Actions"
       - name: This is second step
         run: echo "Bye for now!"
